@@ -1,0 +1,341 @@
+.fa-brands.fa-facebook {
+    color: #895938;
+}
+
+.fa-solid.fa-bars {
+    color: #895938;
+}
+
+
+/* header */
+
+.main-header-1 {
+    background-image: url("/img/Thiết\ kế\ chưa\ có\ tên\ \(15\).png");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.text-animation {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-family: "Protest Strike", sans-serif;
+    font-size: 100px;
+    color: #74512D;
+    font-weight: normal;
+    --animate-duration: 2s;
+}
+
+.img-animation {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    --animate-duration: 2s;
+
+}
+
+.slogan-animation {
+    position: absolute;
+    top: 55%;
+    left: 28%;
+    --animate-duration: 2s;
+    font-family: Noto Sans KR, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.animate__animated.animate__fadeInUp.imageAnimation {
+    transition: transform 0.5 ease
+}
+
+.animate__animated.animate__fadeInUp.imageAnimation:hover {
+    transform: scale(1.1);
+}
+
+.btn-close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.logo-trangchu {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.container-header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+.navbar-logo {
+    padding: 500px;
+    left: 0;
+}
+.col-md-3 {
+    padding: 5px;
+}
+
+.col-md-3.div-3 {
+    padding-left: 50px;
+}
+
+
+
+/* introduce 1*/
+.title-introduce1 {
+    color: #543310;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
+.describe {
+    color: #543310;
+    padding-left: 10px;
+}
+
+
+/* introduce 3 */
+.image-section image {
+    object-fit: conver;
+}
+
+.explore-btn1 {
+    background-color: #7a4b3a;
+    color: white;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.explore-btn1:hover {
+    background-color:#E6D9C1;
+    color: #74512D;
+
+}
+
+
+/* tach div */
+.backround {
+    height: 150px;
+}
+
+
+
+/* menu điều hướng */
+.logo-menu {
+    width: 100px;
+    height: 100px;
+    top: 0;
+}
+
+.overlay-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F8F4E1;
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+.overlay-menu.show {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+.nav-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navbar-main ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu-item {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #9f703f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-item a:hover {
+    background-color: #9f703f;
+    color: white;
+}
+
+.menu-item a {
+    text-decoration: none;
+}
+
+
+
+/* product final */
+.product-section {
+    padding: 50px 50px;
+    background-color: #F8F4E1;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* z-index: 999; */
+}
+
+.product-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 13px;
+    transition: transform 0.5s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    width: 94%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #7a4b3a;
+}
+
+.btn-order {
+    background-color: #7a4b3a;
+    color: white;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-order:hover {
+    background-color:#E6D9C1;
+    color: #74512D;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* anh cua quan */
+.infor-coffee {
+    border: none;
+    background-color: #7a4b3a;
+    color: white;
+    border-radius: 7px;
+    padding: 6px 12px;
+}
+
+.infor-coffee a {
+    text-decoration: none;
+    color: white;
+}
+
+.infor-coffee:hover {
+    background-color:#E6D9C1;
+    color: #74512D;
+}
+
+.infor-coffee:hover a {
+    color: #543310;
+}
+
+.text-center {
+    color: #543310;
+    padding-bottom: 30px;
+}
+
+.logo-gallery {
+    height: 110px;
+    width: 130px;
+    margin-left: 600px;
+}
+
+
+
+/* footer */
+.logo-footer {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #543310;
+}
+
+.link-footer:hover {
+    color: rgb(255, 255, 255);
+}
+
+.name-coffee {
+    text-decoration: none;
+    color: #543310;
+}
+
+.footer-bottom {
+    height: 50px;
+    background-color: #ffffff;
+    color: #543310;
+}
+
+.text-center.text-footer {
+    padding: 10px 0;
+}
+
+.backround-footer {
+    background-color: #F8F4E1;
+}
+
+.container {
+    color: #543310;
+    /* z-index: 10; */
+}

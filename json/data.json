@@ -1,0 +1,94 @@
+{
+    "products":[
+        {
+            "name": "Espresso",
+            "category": "coffee",
+            "description": "Vị cà phê mạnh",
+            "image_url": "/img/19800101001257_IMG_8180.JPG"
+        },
+        {
+            "name": "Cà phê Năng lượng",
+            "category": "coffee",
+            "description": "Thức uống để một ngày mới đầy năng lượng",
+            "image_url": "/img/br.jpg"
+        },
+        {
+            "name": "Cappucino",
+            "category": "coffee",
+            "description": "Vị cà phê hòa cùng sữa béo ngậy",
+            "image_url": "/img/z5709070452037_51c4302b61969fe30c454f48da160190.jpg"
+        },
+        {
+            "name": "Nước ép dứa",
+            "category": "juice",
+            "description": "Vị dứa ngọt dịu, thanh mát",
+            "image_url": "/img/19800101000539_IMG_8167.JPG"
+        },
+        {
+            "name": "Nước cam ép",
+            "category":"juice",
+            "description": "Thức uống bổ sung vitamin C",
+            "image_url": "/img/19800101002153_IMG_8370.JPG"
+        },
+        {
+            "name": "Sữa chua đánh đá",
+            "category": "yogurt",
+            "description": "Sữa chua kết hợp sữa tươi",
+            "image_url": "/img/19800101001425_IMG_8287.JPG"
+        },
+        {
+            "name": "Sinh tố xoài",
+            "category": "smoothie",
+            "description": "Mềm mịn, thơm ngon",
+            "image_url": "/img/19800101000724_IMG_8310.JPG"
+        },
+        {
+            "name": "Matcha latte",
+            "category":"latte",
+            "description": "Matcha hòa quyện với sữa tươi béo ngậy",
+            "image_url": "/img/19800101001834_IMG_8249.JPG"
+        },
+        {
+            "name": "Bạc xỉu",
+            "category":"coffee",
+            "description": "Ngon",
+            "image_url": "/img/19800101000553_IMG_8296.JPG"
+        },
+        {
+            "name": "Sữa chua dâu",
+            "category": "yogurt",
+            "description": "Thơm ngon",
+            "image_url": "/img/19800101000107_IMG_8276.JPG"
+        },
+        {
+            "name": "Cà phê muối",
+            "category":"coffee",
+            "description": "Một chút mặn của muối tạo cảm giác mới lạ",
+            "image_url": "/img/hinh-anh-ly-ca-phe-muoi_3.jpg"
+        },
+        {
+            "name": "Cà phê trứng",
+            "category":"coffee",
+            "description": "Vị kem trứng béo ngậy",
+            "image_url": "/img/ca-phe-trung-ha-noi-34.jpg"
+        },
+        {
+            "name": "Nước ép dưa hấu",
+            "category": "juice",
+            "description": "Giải nhiệt, đẹp da",
+            "image_url": "/img/nuoc-ep-dua-hau.jpg"
+        },
+        {
+            "name":"Nước ép cà rốt",
+            "category":"juice",
+            "description": "Thức uống tốt cho da và mắt",
+            "image_url": "/img/nuoc-ep-ca-rot.png"
+        },
+        {
+            "name": "Sinh tố bơ",
+            "category":"smoothie",
+            "description": "Bơ và sữa béo ngậy",
+            "image_url": "/img/sinhtobo.jpg"
+        }
+    ]
+}

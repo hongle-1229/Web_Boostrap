@@ -1,0 +1,48 @@
+.product-section {
+    padding: 50px 0;
+    position: relative; /* Để đặt các sản phẩm ở vị trí tuyệt đối */
+    overflow: hidden; /* Ẩn phần ngoài */
+}
+
+.product-slider {
+    display: flex; /* Sắp xếp sản phẩm theo hàng ngang */
+    transition: transform 0.5s ease; /* Hiệu ứng chuyển động */
+    will-change: transform; /* Tối ưu hóa hiệu suất */
+}
+
+.product-card {
+    flex: 0 0 33.33%; /* Hiển thị 3 sản phẩm trên 1 hàng */
+    max-width: 300px; /* Chiều rộng tối đa cho mỗi sản phẩm */
+    margin: 0 10px; /* Khoảng cách giữa các sản phẩm */
+    border-radius: 15px; /* Bo góc */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Bóng đổ */
+    background-color: #fff; /* Màu nền trắng cho thẻ */
+}
+
+.product-card img {
+    height: 200px; /* Chiều cao cho hình ảnh */
+    width: 100%; /* Chiều rộng bằng 100% */
+    object-fit: cover; /* Đảm bảo ảnh không bị biến dạng */
+    border-radius: 15px 15px 0 0; /* Bo góc cho ảnh */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Kích thước tiêu đề */
+    color: #7a4b3a; /* Màu tiêu đề */
+    margin: 10px 0; /* Khoảng cách từ hình ảnh đến tiêu đề */
+}
+
+.btn-order {
+    background-color: #7a4b3a; /* Màu nền nút đặt hàng */
+    color: white; /* Màu chữ nút đặt hàng */
+    border-radius: 20px; /* Bo góc nút */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu */
+    margin-top: 10px; /* Khoảng cách từ văn bản đến nút */
+    padding: 10px 20px; /* Padding cho nút */
+    border: none; /* Không có viền */
+    cursor: pointer; /* Con trỏ chuột thay đổi khi hover */
+}
+
+.btn-order:hover {
+    background-color: #a66b5c; /* Màu nền khi hover */
+}
